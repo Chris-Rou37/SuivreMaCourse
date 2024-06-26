@@ -34,3 +34,4 @@ $response = array(); // Crée un tableau pour stocker la réponse.
   }
 
 
+?>
