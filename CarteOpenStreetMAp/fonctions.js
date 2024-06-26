@@ -10,4 +10,4 @@ L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
 
  // Création d'un marqueur sur la carte
 let marqueur = L.marker([47.383333, 0.683333]).addTo(carte);
-marqueur.bindPopup("<b>Bonjour!</b><br>Ceci est un marqueur.");
+marqueur.bindPopup("<b>Bonjour !</b><br>C'est moi.");

@@ -8,8 +8,8 @@ $cnx = mysqli_connect("localhost", "root", "");
 if (!$cnx) {
   // Affichage d'un message d'erreur si la connexion au serveur a échoué
   echo "Erreur de connexion au serveur";
-}
 
+}
 // Sélection de la base de données nommée 'suividecourse'
 $db = mysqli_select_db($cnx, "suividecourse");
 
@@ -17,5 +17,7 @@ $db = mysqli_select_db($cnx, "suividecourse");
 if (!$db) {
   // Affichage d'un message d'erreur si la connexion à la base de données a échoué
   echo "Erreur de connexion à la base";
-}
+
+} 
+
 ?>
